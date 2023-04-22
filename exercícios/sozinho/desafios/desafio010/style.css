@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+body{
+    margin: auto;
+    background-color: rgb(149, 206, 149);
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(78, 189, 156);
+    box-shadow: inset 0px -68px 61px 23px rgba(0, 0, 0, 0.295);
+}
+
+header>h1 {
+    margin: 0px;
+    padding: 40px 0px;
+    font-size: 39px;
+    font-family: 'Oswald', sans-serif;
+}
+
+header>p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    max-width: 450px;
+    margin: auto;
+}
+
+nav{
+    text-align: left;
+    padding: 20px 0px 15px 0px;
+}
+nav>a {
+    margin: 0px 5px 0px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav>a:hover{
+    transition: 0.3s;
+    color: rgb(0, 255, 0);
+}
+
+nav>a:active{
+    color: rgb(126, 190, 163);
+}
