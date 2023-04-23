@@ -11,24 +11,29 @@ body{
     background-color: rgb(149, 206, 149);
 }
 
+a{
+    text-decoration: none;
+    color: rgb(0, 255, 34);
+}
+
 header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: center;
     background-color: rgb(78, 189, 156);
-    box-shadow: inset 0px -68px 61px 23px rgba(0, 0, 0, 0.295);
+    box-shadow: inset 0px -68px 61px 23px rgba(1, 31, 10, 0.397);
 }
 
 header>h1 {
     margin: 0px;
     padding: 40px 0px;
-    font-size: 39px;
+    font-size: 2em;
     font-family: 'Oswald', sans-serif;
 }
 
 header>p{
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: lighter;
     max-width: 450px;
     margin: auto;
@@ -51,4 +56,22 @@ nav>a:hover{
 
 nav>a:active{
     color: rgb(126, 190, 163);
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    box-shadow: 3px 3px 8px rgba(235, 235, 235, 0.637);
+}
+
+#nomeInst{
+    color: orangered;
 }
