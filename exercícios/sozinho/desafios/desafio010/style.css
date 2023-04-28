@@ -16,6 +16,18 @@ a{
     color: rgb(0, 255, 34);
 }
 
+p{
+    padding: 0px 15px;
+}
+
+h1{
+    padding-left: 15px;
+}
+
+h2{
+    padding-left: 15px;
+}
+
 header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -56,6 +68,18 @@ nav>a:hover{
 
 nav>a:active{
     color: rgb(126, 190, 163);
+}
+
+main{
+    width: 800px;
+    padding-top: 1px;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 5px;
+}
+
+img{
+    text-align: center;
 }
 
 footer > a {
