@@ -22,12 +22,12 @@ Cores do site:
 
 body{
     margin: auto;
-    background-color: #c5ebd6
+    background-color: #E8E5C2;
+    font-family: 'Bebas Neue', cursive;
 }
 
 a{
     text-decoration: none;
-    color: rgb(0, 255, 34);
 }
 
 p{
@@ -63,13 +63,13 @@ header > p{
     margin: auto;
 }
 
-nav{
+nav {
     /* background-color: #034403; */
     text-align: left;
     padding: 15px 0px 15px 0px;
 }
 
-nav>a {
+nav > a {
     padding: 5px 10px;
     margin: 0px 5px 0px 15px;
     text-decoration: none;
@@ -77,10 +77,10 @@ nav>a {
     transition: 0.3s;
 }
 
-nav>a:hover{
+nav > a:hover {
     transition: 0.3s;
-    color: rgb(0, 255, 0);
-    background-color: black;
+    color: #005723;
+    background-color: #36A967;
     border-radius: 7px;
 }
 
@@ -96,6 +96,10 @@ main{
     border-radius: 5px;
 }
 
+main > p {
+    margin: 30px;
+}
+
 main > h1{
     color: #034403;
     font-family: idroid;
@@ -103,9 +107,16 @@ main > h1{
 }
 
 main > h2{
+    background-image: linear-gradient(to right, #7EDCA8, #F5F5F5);
     color: #034403;
     font-family: idroid;
     font-weight: lighter;
+}
+
+main > p > a {
+    color: #034A23;
+    background-color: #7adba6;
+    border-radius: 2px;
 }
 
 footer > a {
