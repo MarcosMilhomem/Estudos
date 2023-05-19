@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F92F.</p>
+    <picture class="img">
+        <source media="(max-width: 830px)" srcset="../desafio07/midias/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1290px)" srcset="../desafio07/midias/paisagem-m.png" type="image/png">
+        <img src="../desafio07/midias/paisagem-g.png" alt="imagem grande">
+    </picture>
+    <p class="segundoP">Agora o teste com minhas fotos:</p>
+    <picture class="img">
+        <source media="(max-width: 561px)" srcset="midias/apolo-pp.png" type="image/png">
+        <source media="(max-width: 815px)" srcset="midias/apolo-p.png" type="image/png">
+        <source media="(max-width: 1090px)" srcset="midias/apolo-m.png" type="image/png">
+        <img src="midias/apolo-g.png" alt="foto grande">
+    </picture>
+</body>
+</html>

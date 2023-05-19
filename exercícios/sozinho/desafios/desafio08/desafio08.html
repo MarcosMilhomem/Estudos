@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação</title>
+    <style>
+        body{
+            background-color: darkgray;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        li{
+            list-style-type: none;
+            margin-top: 10px;
+        }
+        p{
+            font-size: 18px;
+        }
+        a{
+            color: rgb(63, 63, 63);
+        }
+        .amarelo a:hover{
+            color: rgb(255, 230, 0);
+            transition: 0.5s;
+        }
+        .amarelo a:active{
+            color: yellow;
+            transition: none;
+        }
+        .verde a:hover{
+            color: rgb(0, 146, 0);
+            transition: 0.5s;
+        }
+        .verde a:active{
+            color: rgb(6, 187, 6);
+            transition: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio da Navegação</h1>
+    <p>Essa é a página principal, o indice do seu site. É a página cinza. A partir dela vicê pode acessar as outras áreas pincipais através dos links a seguir:</p>
+    
+    <ul>
+        <li class="verde">
+            <a href="areaverde.html" >Acessar a área verde</a>
+        </li>
+        <li class="amarelo">
+            <a href="areaamarela.html">Acessar a área amarela</a>
+        </li>
+    </ul>
+</body>
+</html>
