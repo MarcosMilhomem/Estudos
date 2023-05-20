@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(83, 1, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(195, 227, 255);
+}
+
+h1 {
+    margin: 30px;
+    margin-left: 380px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+p {
+    margin: 15px 27px;
+    width: 700px;
+}
+
+img {
+    margin-left: 70px;
+    border-radius: 90px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+a:hover {
+    color: aliceblue;
+    transition: 0.27s;
+}
+
+.icones {
+    height: 25px;
+}
