@@ -159,18 +159,17 @@ iframe {
     background-color: var(--cor5);
 }
 
-footer > a {
-    color: white;
-    text-decoration: none;
-}
-
 footer {
     background-color: #034A23;
     color: white;
-    text-align: center;
+    width: 100%;
     padding: 5px;
-    margin: 0px;
     box-shadow: 3px 3px 8px rgba(235, 235, 235, 0.637);
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
 }
 
 .segundaParte {
@@ -193,7 +192,12 @@ footer {
     border-radius: 15px 15px 0px 0px;
 }
 
-.lista {
+.conteudoSP > ul {
     list-style-position: inside;
     columns: 2;
+}
+
+.conteudoSP > p > a {
+    color: var(--cor5);
+    font-weight: bold;
 }
