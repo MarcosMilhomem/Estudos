@@ -26,6 +26,7 @@
 
 body {
     margin: auto;
+    max-width: 1000px;
     background-color: var(--cor0);
 }
 
@@ -179,11 +180,9 @@ footer {
     display: flex;
     margin-top: 40px;
     border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.24);
 }
 
-/* .conteudoSP {
- 
-} */
 
 .conteudoSP > h3 { 
     background-color: var(--cor4);
@@ -195,9 +194,6 @@ footer {
 }
 
 .lista {
-
-}
-
-#nomeInst {
-    color: orangered;
+    list-style-position: inside;
+    columns: 2;
 }
