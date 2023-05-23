@@ -24,9 +24,13 @@
     --font-android: idroid;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    margin: auto;
-    max-width: 1000px;
+    max-width: 1390px;
     background-color: var(--cor0);
 }
 
@@ -64,7 +68,7 @@ header {
     color: white;
     text-align: center;
     padding-top: 10px;
-    background-image: linear-gradient(to bottom, var(--cor3), #032c15);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
 }
 
 header > h1 {
@@ -162,14 +166,22 @@ iframe {
 footer {
     background-color: #034A23;
     color: white;
-    width: 100%;
-    padding: 5px;
+    width: 1337px;
+    text-align: center;
     box-shadow: 3px 3px 8px rgba(235, 235, 235, 0.637);
+}
+
+footer > p {
 }
 
 footer > a {
     color: white;
     text-decoration: none;
+}
+
+footer > a:hover {
+    color: var(--cor2);
+    transition: 0.2s;
 }
 
 .segundaParte {
@@ -193,6 +205,7 @@ footer > a {
 }
 
 .conteudoSP > ul {
+    margin: 20px;
     list-style-position: inside;
     columns: 2;
 }
