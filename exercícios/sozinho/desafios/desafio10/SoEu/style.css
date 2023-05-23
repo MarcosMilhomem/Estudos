@@ -64,7 +64,7 @@ h3 {
 
 header {
     font-family: var(--font-destaque);
-    min-height: 202px;
+    min-height: 175px;
     color: white;
     text-align: center;
     padding-top: 10px;
@@ -208,6 +208,10 @@ footer > a:hover {
     margin: 20px;
     list-style-position: inside;
     columns: 2;
+}
+
+.conteudoSP > p {
+    margin: 15px;
 }
 
 .conteudoSP > p > a {
