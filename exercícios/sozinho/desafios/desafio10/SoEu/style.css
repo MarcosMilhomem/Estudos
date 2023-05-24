@@ -68,7 +68,7 @@ header {
     color: white;
     text-align: center;
     padding-top: 10px;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor3), #003314e3);
 }
 
 header > h1 {
@@ -164,18 +164,16 @@ iframe {
 }
 
 footer {
+    font-family: var(--font-padrao);
     background-color: #034A23;
     color: white;
-    width: 1337px;
+    width: 1349px;
     text-align: center;
     box-shadow: 3px 3px 8px rgba(235, 235, 235, 0.637);
 }
 
-footer > p {
-}
-
 footer > a {
-    color: white;
+    color: var(--cor0);
     text-decoration: none;
 }
 
