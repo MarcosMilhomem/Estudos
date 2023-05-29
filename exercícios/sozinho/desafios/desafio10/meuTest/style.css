@@ -48,24 +48,17 @@ p {
     margin-block-end: 1em;
 }
 
-h1 {
-    padding-left: 15px;
-}
-
 li {
     list-style-type: none;
 }
 
-h1 {
-    margin-left: 10px;
+img {
+    margin: auto;
+    display: flex;
 }
 
 h2 {
-    padding-left: 15px;
-}
-
-h3 {
-    margin-top: 0px;
+    padding-left: 10px;
 }
 
 header {
@@ -116,16 +109,10 @@ nav > a:hover {
     color: #005723;
     background-color: #36A967;
     border-radius: 7px;
-    text-decoration: underline;
 }
 
 nav > a:active {
-    color: rgb(126, 190, 163);
-}
-
-img{
-    margin: auto;
-    display: flex;
+    color: var(--cor1);
 }
 
 main {
@@ -139,19 +126,28 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
 
+article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 main > article > p {
-    margin: 15px 15px;
+    margin-bottom: 15px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
 }
 
+main img {
+    width: 100%;
+}
+
 main > article > h1 {
     color: #034403;
     font-family: var(--font-android);
-    margin-top: 20px;
-    margin-left: 10px;
+    line-height: 2em;
+    margin-top: 10px;
     font-weight: 500;
     font-size: 1.8em;
 }
@@ -162,7 +158,6 @@ main > article > h2 {
     font-family: var(--font-android);
     font-weight: lighter;
     font-size: 1.3em;
-    margin-left: 20px;
 }
 
 main > article > p > a {
@@ -173,8 +168,17 @@ main > article > p > a {
     padding: 2px;
 }
 
+.bugdroid {
+    max-width: 350px;
+}
+
+article div.iframe {
+    margin: 0px -20px 30px -20px;
+}
+
 .iframe {
     background-color: var(--cor5);
+    margin: 0px;
     padding: 20px;
     padding-bottom: 58%;
     position: relative;
@@ -186,30 +190,6 @@ main > article > p > a {
     left: 5%;
     width: 90%;
     height: 90%;
-}
-
-footer {
-    font-family: var(--font-padrao);
-    font-size: 15px;
-    background-color: #034A23;
-    color: white;
-    margin-top: 30px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    width: 100%;
-    text-align: center;
-    box-shadow: 3px 3px 8px rgba(235, 235, 235, 0.637);
-}
-
-footer > a {
-    color: var(--cor0);
-    text-decoration: none;
-}
-
-footer > a:hover {
-    color: var(--cor1);
-    transition: 0.2s;
-    text-decoration: underline;
 }
 
 .segundaParte {
@@ -262,4 +242,28 @@ footer > a:hover {
 .conteudoSP > p > a {
     color: var(--cor5);
     font-weight: bold;
+}
+
+footer {
+    font-family: var(--font-padrao);
+    font-size: 15px;
+    background-color: #034A23;
+    color: white;
+    margin-top: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(235, 235, 235, 0.637);
+}
+
+footer > a {
+    color: rgb(255, 228, 160);
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: var(--cor1);
+    transition: 0.2s;
+    text-decoration: underline;
 }
