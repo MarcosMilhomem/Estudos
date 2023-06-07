@@ -60,6 +60,7 @@ section {
 section p {
     font-family: var(--font-3);
     line-height: 2em;
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -79,12 +80,12 @@ section.imagem > p {
 }
 
 section#img1 {
-    background: url('imagens/background001.jpg') right center no-repeat fixed;
+    background: url('../pacote-d012/imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
 }
 
 section#img2 {
-    background: url('imagens/background002.jpg') right center no-repeat fixed;
+    background: url('../pacote-d012/imagens/background002.jpg') right center no-repeat fixed;
     background-size: cover;
 }
 
