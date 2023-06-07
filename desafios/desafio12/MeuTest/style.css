@@ -75,7 +75,7 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.514);
-    max-width: 570px;
+    display: inline-block
     padding-left: 6px;
 }
 
